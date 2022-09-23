@@ -201,38 +201,38 @@
 # The park method should print out the make, model, year, and color of the car and the 
 # word "is parking". Create an instance of the Car class and call all the methods.
 
-print("QUESTION SEVEN")
-class Vehicle:
-    def __init(self, make, model, year):
-        self.make = make
-        self.model = model
-        self.year = year
-    def start(self):
-        return f"The {self.make} {self.model} {self.year} is starting."
-    def stop(self):
-        return f"The {self.make} {self.model} {self.year} is stopping."
-    def drive(self):
-        return f"The {self.make} {self.model} {self.year} is driving itself."
+# print("QUESTION SEVEN")
+# class Vehicle:
+#     def __init(self, make, model, year):
+#         self.make = make
+#         self.model = model
+#         self.year = year
+#     def start(self):
+#         return f"The {self.make} {self.model} {self.year} is starting."
+#     def stop(self):
+#         return f"The {self.make} {self.model} {self.year} is stopping."
+#     def drive(self):
+#         return f"The {self.make} {self.model} {self.year} is driving itself."
 
-class Car(Vehicle):
-    def __init__(self, make, model, year, color):
-        super().__init__(make, model, year)
-        self.color = color
-    def start(self):
-        return f"The {self.make} {self.model} {self.year} is starting."
-    def stop(self):
-        return f"The {self.make} {self.model} {self.year} is stopping."
-    def drive(self):
-        return f"The {self.make} {self.model} {self.year} is driving itself."
-    def park(self):
-        return f"The {self.make} {self.model} {self.year} {self.color} car is parking"
+# class Car(Vehicle):
+#     def __init__(self, make, model, year, color):
+#         super().__init__(make, model, year)
+#         self.color = color
+#     def start(self):
+#         return f"The {self.make} {self.model} {self.year} is starting."
+#     def stop(self):
+#         return f"The {self.make} {self.model} {self.year} is stopping."
+#     def drive(self):
+#         return f"The {self.make} {self.model} {self.year} is driving itself."
+#     def park(self):
+#         return f"The {self.make} {self.model} {self.year} {self.color} car is parking"
 
-C = Car("Toyota", "V8", 2020, "Black")
+# C = Car("Toyota", "V8", 2020, "Black")
 
-print(C.start())
-print(C.stop())
-print(C.drive())
-print(C.park())
+# print(C.start())
+# print(C.stop())
+# print(C.drive())
+# print(C.park())
 
 
 # 8. create a class called Animal. The class should have the following attributes: name, 
@@ -245,6 +245,7 @@ print(C.park())
 # following methods: eat, sleep, make_sound, and bark. The bark method should print out
 #  the name of the dog and the word "is barking". Create an instance of the Dog class and 
 # call all the methods.
+print("QUESTION EIGHT")
 class Animal:
     def __init__(self, name, color, age):
         self.name = name
@@ -268,7 +269,13 @@ class Dog(Animal):
     def make_sound(self):
         return f"The {self.name} is making a sound"
     def bark(self):
-        return f""
+        return f"The {self.name} dog is barking"
+
+d = Dog("Max", "Black", 3, "German Shepherd")
+print(d.eat())
+print(d.sleep())
+print(d.make_sound()
+)
 
 
 
