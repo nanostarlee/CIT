@@ -5,7 +5,7 @@
 #  expiration date, and security code. Create a method that will print out 
 # the card number, expiration date, and security code. Create an instance 
 # of the class and call the method.
-
+import sys
 print("QUESTION ONE")
 class credit_card:
     def __init__(self, card_number, expiration_date, security_code):
@@ -61,7 +61,7 @@ class Queue:
     def dequeue(self):
         if self.isEmpty():
             return "Queue is empty"
-        return self.queue.pop(1)
+        return self.queue.pop(0)
 
     def size(self):
         return len(self.queue)
@@ -80,7 +80,7 @@ print(q.display())
 print(q.size())
 print(q.dequeue())
 print(q.size())
-
+sys.exit()
 # 4. create a class called Stack. The class should have the following methods: push, 
 # pop, and size. The push method should add an item to the stack. The pop method should
 #  remove an item from the stack. The size method should return the size of the stack.
