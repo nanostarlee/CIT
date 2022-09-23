@@ -274,8 +274,8 @@ class Dog(Animal):
 d = Dog("Max", "Black", 3, "German Shepherd")
 print(d.eat())
 print(d.sleep())
-print(d.make_sound()
-)
+print(d.make_sound())
+
 
 
 
