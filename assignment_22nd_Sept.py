@@ -175,12 +175,6 @@ class Programmer(Employee):
     def __init__(self, name, age, salary, programming_language):
         super().__init__(name, age, salary)
         self.programming_language = programming_language
-    def eat(self):
-        return f"{self.name} is eating"
-    def sleep(self):
-        return f"{self.name} is sleeping"
-    def work(self):
-        return f"{self.name} is working"
     def code(self):
         return f"{self.name} is coding in a {self.programming_language} programming language"
 
@@ -217,12 +211,6 @@ class Car(Vehicle):
     def __init__(self, make, model, year, color):
         super().__init__(make, model, year)
         self.color = color
-    def start(self):
-        return f"The {self.make} {self.model} {self.year} is starting."
-    def stop(self):
-        return f"The {self.make} {self.model} {self.year} is stopping."
-    def drive(self):
-        return f"The {self.make} {self.model} {self.year} is driving itself."
     def park(self):
         return f"The {self.make} {self.model} {self.year} {self.color} car is parking"
 
@@ -261,12 +249,6 @@ class Dog(Animal):
     def __init__(self, name, color, age, breed):
         super().__init__(name, color, age)
         self.breed = breed
-    def eat(self):
-        return f"The {self.name} dog is eating"
-    def sleep(self):
-        return f"The {self.name} dog is sleeping"
-    def make_sound(self):
-        return f"The {self.name} dog is making a sound"
     def bark(self):
         return f"The {self.name} dog is barking"
 
