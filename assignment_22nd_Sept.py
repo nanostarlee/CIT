@@ -80,7 +80,7 @@ print(q.display())
 print(q.size())
 print(q.dequeue())
 print(q.size())
-sys.exit()
+#sys.exit()
 # 4. create a class called Stack. The class should have the following methods: push, 
 # pop, and size. The push method should add an item to the stack. The pop method should
 #  remove an item from the stack. The size method should return the size of the stack.
@@ -99,7 +99,7 @@ class stack:
     def pop(self, data):
         if self.isEmpty():
             return ("Stack is empty :(")
-        return self.stack.pop(0)
+        return self.stack.pop(-1)
     
     def size(self):
         return len(self.stack)
@@ -117,7 +117,7 @@ st.push("CSS")
 
 print(st.show())
 print(st.size())
-print(st.pop(0))
+print(st.pop(-1))
 print(st.show())
 print(st.size())
 
@@ -279,6 +279,7 @@ print(d.make_sound())
 # 9. create a class of your choice. It should have at least 3 attributes and 3 methods 
 # where one of the methods is a static method. Implement polymorphism, encapsulation, 
 # and inheritance.
+print("QUESTION NINE")
 from datetime import date
 class Person:
     def __init__(self, name, age):
