@@ -262,11 +262,11 @@ class Dog(Animal):
         super().__init__(name, color, age)
         self.breed = breed
     def eat(self):
-        return f"The {self.name} is eating"
+        return f"The {self.name} dog is eating"
     def sleep(self):
-        return f"The {self.name} is sleeping"
+        return f"The {self.name} dog is sleeping"
     def make_sound(self):
-        return f"The {self.name} is making a sound"
+        return f"The {self.name} dog is making a sound"
     def bark(self):
         return f"The {self.name} dog is barking"
 
