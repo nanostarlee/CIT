@@ -54,4 +54,4 @@ def cbs_news():
         else:
             continue
 
-    return render_template('cbs_news.html', cbsnews=cbsnews)
+    return render_template('cbs_news.html', data=cbsnews)
