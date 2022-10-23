@@ -1,0 +1,7 @@
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+flask-marshmallow
+PyMySQL
+requests
+BeautifulSoup4
