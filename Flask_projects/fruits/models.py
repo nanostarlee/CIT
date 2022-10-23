@@ -48,7 +48,7 @@ class HackerNews(db.Model, ExtraMixin):
 # CBS News model
 class CbsNews(db.Model, ExtraMixin):
     __tablename__ = 'cbs_news'
-    image = db.Column(db.string(255), nullable = False)
+    image = db.Column(db.LargeBinary, nullable = False)
     title = db.Column(db.Text, nullable = False)
     description = db.Column(db.Text, nullable = False)
     link = db.Column(db.Text, nullable = False)
